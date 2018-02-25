@@ -1,0 +1,26 @@
+<h1>Fellowship application form</h1>
+
+<div class="row">
+    <div class="col-lg-6">
+        <p>
+            Next submission deadline: <br/> 
+            <b>{{nextSubmissionDate}}</b>
+        </p>
+    </div>
+    <div class="col-lg-6">
+            
+                Following submission deadlines: <br/> 
+                <div *ngFor="let date of followingSubmissionDeadlines">
+                    <span>{{date}}</span>
+                </div>
+        </div>
+</div>
+
+<div class="row">
+    <p>It's great that you'd like to become an ICE fellow.
+        <br/>
+        Before you can begin, please read our<a href="#" class="btn btn-link">Fellowship Application Guidance</a>
+        <br />
+        Your application can be done in stages and saved as you go.
+    </p>
+</div>
