@@ -17,10 +17,46 @@
 </div>
 
 <div class="row">
-    <p>It's great that you'd like to become an ICE fellow.
-        <br/>
-        Before you can begin, please read our<a href="#" class="btn btn-link">Fellowship Application Guidance</a>
-        <br />
-        Your application can be done in stages and saved as you go.
-    </p>
+        <div class="col-lg-8">
+                <p>It's great that you'd like to become an ICE fellow.
+                        <br/>
+                        Before you can begin, please read our<a href="#" class="btn btn-link">Fellowship Application Guidance</a>
+                        <br />
+                        Your application can be done in stages and saved as you go.
+                    </p>
+                
+                    <ngb-accordion [closeOthers]="true" (panelChange)="beforeChange($event)">
+                            <ngb-panel id="pnlPersonDetails" title="Personal details" >
+                              <ng-template ngbPanelContent>
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                                aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                              </ng-template>
+                            </ngb-panel>
+                            <ngb-panel id="pnlEngineeringCouncilRegistration" title="Engineering council registration">
+                              <ng-template ngbPanelContent>
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                                aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                              </ng-template>
+                            </ngb-panel>
+                            <ngb-panel id="pnlCv" title="CV">
+                              <ng-template ngbPanelContent>
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                                aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                              </ng-template>
+                            </ngb-panel>
+                          </ngb-accordion>
+        </div>
+    
 </div>
